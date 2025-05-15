@@ -1,0 +1,35 @@
+import React from "react";
+import DesktopBackground from "../../assets/Our Team Background Desktop.png";
+
+function OurTeam() {
+  return (
+    <div className="section-container mission-vision">
+      <div className="section-heading">
+        <h2>Our Team</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Morbi pellentesque quis
+          faucibus urna. Malesuada consectetur senectus nisi aliquet.
+        </p>
+      </div>
+      <div className="our-team-container">
+        <div className="our-team-div">
+          <div className="our-team-set">
+            <h3>Cam Engineer</h3>
+            <p>12 Years of Experience</p>
+          </div>
+          <div className="our-team-set">
+            <h3>VMC Engineer</h3>
+            <p>10 Years of Experience</p>
+          </div>
+          <div className="our-team-set">
+            <h3>Assembly & Filter</h3>
+            <p>08 Years of Experience</p>
+          </div>
+        </div>
+        <img src={DesktopBackground} />
+      </div>
+    </div>
+  );
+}
+
+export default OurTeam;

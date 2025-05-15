@@ -4,6 +4,11 @@ import Banner from "./Home/Banner";
 import MissionVision from "./Home/MissionVision";
 import Clientele from "./Home/Clientele";
 import ServiceOptions from "./Home/ServiceOptions";
+import Experience from "./Home/Experience";
+import Machine from "./Home/Machine";
+import Engineering from "./Home/Engineering";
+import ServiceInfo from "./Home/ServiceInfo";
+import OurTeam from "./Home/OurTeam";
 
 function Home() {
   return (
@@ -16,6 +21,11 @@ function Home() {
       <MissionVision />
       <Clientele />
       <ServiceOptions />
+      <Experience />
+      <Machine />
+      <Engineering />
+      <ServiceInfo />
+      <OurTeam />
     </>
   );
 }

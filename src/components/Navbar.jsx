@@ -5,13 +5,17 @@ import CompanyLogo from "../assets/Company Logo.png";
 function Navbar() {
   return (
     <header>
-      <Link to="/" className="company-logo">
+      <Link to="/" state={{ scrollTo: "Banner" }} className="company-logo">
         <img src={CompanyLogo} />
         <p>Balaji Proto Tools</p>
       </Link>
       <nav>
-        <a href="#">Our Service </a>
-        <a href="#">About Us</a>
+        <Link to="/" state={{ scrollTo: "OurServices" }}>
+          Our Service
+        </Link>
+        <Link to="/" state={{ scrollTo: "AboutUs" }}>
+          About Us
+        </Link>
       </nav>
       <a href="/contact" className="primary-button">
         <p>Contact Us</p>

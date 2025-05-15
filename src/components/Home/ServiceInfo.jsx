@@ -3,7 +3,7 @@ import Img from "../../assets/Machine.png";
 
 function ServiceInfo() {
   return (
-    <div className="section-container mission-vision">
+    <div className="section-container" id="OurServices">
       <div className="section-heading">
         <h2>Engineering Excellence Starts Here</h2>
         <p>

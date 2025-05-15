@@ -9,8 +9,22 @@ import Machine from "./Home/Machine";
 import Engineering from "./Home/Engineering";
 import ServiceInfo from "./Home/ServiceInfo";
 import OurTeam from "./Home/OurTeam";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 function Home() {
+    const location = useLocation();
+
+  useEffect(() => {
+    const targetId = location.state?.scrollTo;
+    if (targetId) {
+      const el = document.getElementById(targetId);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+  
   return (
     <>
       <Helmet>

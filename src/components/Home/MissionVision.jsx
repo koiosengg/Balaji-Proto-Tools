@@ -4,7 +4,7 @@ import Glow2 from "../../assets/Mission Vision Glow 2.png";
 
 function MissionVision() {
   return (
-    <div className="section-container mission-vision">
+    <div className="section-container mission-vision" id="AboutUs">
       <div className="section-heading">
         <h2>Driven by Precision, Guided by Purpose</h2>
         <p>

@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ServiceOptions() {
   return (
-    <div className="section-container" id="explore">
+    <div className="section-container" id="Explore">
       <div className="section-heading">
         <h2>What We Do & Do Best</h2>
         <p>
@@ -11,8 +12,9 @@ function ServiceOptions() {
         </p>
       </div>
       <div className="service-options-container">
-        <a
-          href="#Design&ManufacturingOfFoundaryTool"
+        <Link
+          to="/"
+          state={{ scrollTo: "Design&ManufacturingOfFoundaryTool" }}
           className="service-options-set"
         >
           <svg
@@ -43,9 +45,10 @@ function ServiceOptions() {
           <h3>
             Design & Manufacturing of <span>Foundry Tool</span>
           </h3>
-        </a>
-        <a
-          href="#Design&ManufacturingOfGravityDieCasting"
+        </Link>
+        <Link
+          to="/"
+          state={{ scrollTo: "Design&ManufacturingOfGravityDieCasting" }}
           className="service-options-set"
         >
           <svg
@@ -76,10 +79,13 @@ function ServiceOptions() {
           <h3>
             Design & Manufacturing of <span>Gravity Die Casting </span>
           </h3>
-        </a>
+        </Link>
 
-        <a
-          href="#Design&ManufacturingOfForgingDiesMachiningUpTo55-58HRc "
+        <Link
+          to="/"
+          state={{
+            scrollTo: "Design&ManufacturingOfForgingDiesMachiningUpTo55-58HRc",
+          }}
           className="service-options-set"
         >
           <svg
@@ -111,8 +117,12 @@ function ServiceOptions() {
             Design & Manufacturing of{" "}
             <span>Forging dies machining up to 55-58HRc</span>
           </h3>
-        </a>
-        <a href="#FixturesDesign&Manufacturing" className="service-options-set">
+        </Link>
+        <Link
+          to="/"
+          state={{ scrollTo: "FixturesDesign&Manufacturing" }}
+          className="service-options-set"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -141,7 +151,7 @@ function ServiceOptions() {
           <h3>
             Fixtures Design & <span>Manufacturing</span>
           </h3>
-        </a>
+        </Link>
       </div>
     </div>
   );

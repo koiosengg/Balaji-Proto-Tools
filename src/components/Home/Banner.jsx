@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import DesktopBackground from "../../assets/Banner Background Desktop.png";
 import Img1 from "../../assets/Marquee/Img 1.png";
 import Img2 from "../../assets/Marquee/Img 2.png";
@@ -9,7 +10,7 @@ import Img6 from "../../assets/Marquee/Img 6.png";
 
 function Banner() {
   return (
-    <div className="banner">
+    <div className="banner" id="Banner">
       <img src={DesktopBackground} className="banner-background" />
       <div className="banner-shade-up"></div>
       <div className="banner-shade-down"></div>
@@ -21,7 +22,7 @@ function Banner() {
             sagittis lectus id ut. Sed nunc felis facilisis urna ac morbi.
           </p>
         </section>
-        <a href="#explore" className="primary-button">
+        <Link to="/" state={{ scrollTo: "Explore" }} className="primary-button">
           <p>Explore</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +49,7 @@ function Banner() {
               />
             </g>
           </svg>
-        </a>
+        </Link>
       </div>
       <div className="banner-right">
         <div className="banner-wrapper">

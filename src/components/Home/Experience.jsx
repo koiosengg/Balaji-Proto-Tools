@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import DesktopBackground from "../../assets/Experience Background Desktop.png";
+import MobileBackground from "../../assets/Experience Background Mobile.png";
 
 function Experience() {
   const [count, setCount] = useState(0);
@@ -34,7 +35,8 @@ function Experience() {
 
   return (
     <div className="experience" ref={ref}>
-      <img src={DesktopBackground} className="experience-background" />
+      <img src={DesktopBackground} className="experience-background desktop" />
+      <img src={MobileBackground} className="experience-background mobile" />
       <div className="experience-container">
         <p>
           <span>{String(count).padStart(2, "0")}+</span>&nbsp; years of

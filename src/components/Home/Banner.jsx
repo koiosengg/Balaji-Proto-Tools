@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import DesktopBackground from "../../assets/Banner Background Desktop.png";
+import MobileBackground from "../../assets/Banner Background Mobile.png";
 import Img1 from "../../assets/Marquee/Img 1.png";
 import Img2 from "../../assets/Marquee/Img 2.png";
 import Img3 from "../../assets/Marquee/Img 3.png";
@@ -11,12 +12,13 @@ import Img6 from "../../assets/Marquee/Img 6.png";
 function Banner() {
   return (
     <div className="banner" id="Banner">
-      <img src={DesktopBackground} className="banner-background" />
+      <img src={DesktopBackground} className="banner-background desktop" />
+      <img src={MobileBackground} className="banner-background mobile" />
       <div className="banner-shade-up"></div>
       <div className="banner-shade-down"></div>
       <div className="banner-left">
         <section>
-          <h1>Engineering Excellencein Every Shape</h1>
+          <h1>Engineering Excellence in Every Shape</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur. Venenatis maecenas tristique
             sagittis lectus id ut. Sed nunc felis facilisis urna ac morbi.

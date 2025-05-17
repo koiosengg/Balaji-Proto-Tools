@@ -11,20 +11,23 @@ import ServiceInfo from "./Home/ServiceInfo";
 import OurTeam from "./Home/OurTeam";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import Certifications from "./Home/Certifications";
 
 function Home() {
-    const location = useLocation();
+  const location = useLocation();
 
   useEffect(() => {
     const targetId = location.state?.scrollTo;
     if (targetId) {
       const el = document.getElementById(targetId);
       if (el) {
-        el.scrollIntoView({ behavior: "smooth" });
+        const yOffset = -80;
+        const y = el.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: "smooth" });
       }
     }
   }, [location]);
-  
+
   return (
     <>
       <Helmet>
@@ -39,6 +42,7 @@ function Home() {
       <Machine />
       <Engineering />
       <ServiceInfo />
+      <Certifications />
       <OurTeam />
     </>
   );

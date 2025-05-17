@@ -1,9 +1,10 @@
 import React from "react";
 import DesktopBackground from "../../assets/Our Team Background Desktop.png";
+import MobileBackground from "../../assets/Our Team Background Mobile.png";
 
 function OurTeam() {
   return (
-    <div className="section-container mission-vision">
+    <div className="section-container">
       <div className="section-heading">
         <h2>Our Team</h2>
         <p>
@@ -26,7 +27,8 @@ function OurTeam() {
             <p>08 Years of Experience</p>
           </div>
         </div>
-        <img src={DesktopBackground} />
+        <img src={DesktopBackground} className="desktop" />
+        <img src={MobileBackground} className="mobile" />
       </div>
     </div>
   );

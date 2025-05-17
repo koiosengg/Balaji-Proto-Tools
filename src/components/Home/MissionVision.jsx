@@ -4,7 +4,7 @@ import Glow2 from "../../assets/Mission Vision Glow 2.png";
 
 function MissionVision() {
   return (
-    <div className="section-container mission-vision" id="AboutUs">
+    <div className="section-container" id="AboutUs">
       <div className="section-heading">
         <h2>Driven by Precision, Guided by Purpose</h2>
         <p>
@@ -14,7 +14,8 @@ function MissionVision() {
       </div>
       <div className="mission-vision-container">
         <div className="mission-vision-set">
-          <img src={Glow1} />
+          <img src={Glow1} className="desktop"/>
+           <img src={Glow2} className="mobile" />
           <h3>MISSION</h3>
           <p>
             At Balaji Proto Tools, we create high-precision tooling by

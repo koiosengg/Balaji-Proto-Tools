@@ -1,10 +1,12 @@
 import React from "react";
 import DesktopBackground from "../assets/Contact Background Desktop.png";
+import MobileBackground from "../assets/Contact Background Mobile.png";
 
 function Contact() {
   return (
     <div className="contact">
-      <img src={DesktopBackground} className="contact-background" />
+      <img src={DesktopBackground} className="contact-background desktop" />
+      <img src={MobileBackground} className="contact-background mobile" />
       <div className="contact-info">
         <h2>
           Get Connected <br /> With Us!
@@ -87,7 +89,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <form>
+      <form action="https://formspree.io/f/xwpoywvp" method="POST">
         <div className="form-name">
           <section>
             <label htmlFor="firstName">
@@ -124,6 +126,7 @@ function Contact() {
             id="email"
             name="Email"
             placeholder="Enter Email Address"
+           autoComplete="Email"
             required
           />
         </section>

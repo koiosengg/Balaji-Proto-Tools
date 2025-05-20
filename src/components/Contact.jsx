@@ -1,10 +1,15 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import DesktopBackground from "../assets/Contact Background Desktop.png";
 import MobileBackground from "../assets/Contact Background Mobile.png";
 
 function Contact() {
   return (
     <div className="contact">
+      <Helmet>
+        <title>Contact Us</title>
+        <meta name="description" content="Balaji Proto Tools Contact Us Page" />
+      </Helmet>
       <img src={DesktopBackground} className="contact-background desktop" />
       <img src={MobileBackground} className="contact-background mobile" />
       <div className="contact-info">
@@ -126,7 +131,7 @@ function Contact() {
             id="email"
             name="Email"
             placeholder="Enter Email Address"
-           autoComplete="Email"
+            autoComplete="Email"
             required
           />
         </section>

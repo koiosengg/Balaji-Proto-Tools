@@ -67,7 +67,7 @@ function Footer() {
       </div>
       <div className="footer-container">
         <div className="footer-container-up">
-          <a className="footer-link">
+          <a className="footer-link" href="tel:+919373479991">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"
@@ -93,7 +93,7 @@ function Footer() {
                 />
               </g>
             </svg>
-            <p>+91 2892892891</p>
+            <p>+91 93734 79991</p>
           </a>
           <div className="footer-company-logo">
             <img src={CompanyLogo} />

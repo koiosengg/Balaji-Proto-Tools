@@ -183,7 +183,7 @@ header nav a:hover {
 }
 
 .banner-left section h1 {
-  color: var(--White-Bg, #fff);
+  color: var(--Black-black-50, #e7e7e7);
   font-family: Inter;
   font-size: 72px;
   font-style: normal;
@@ -316,7 +316,7 @@ header nav a:hover {
 .section-heading h2 {
   width: 525px;
   flex-shrink: 0;
-  color: var(--White-Bg, #fff);
+  color: var(--Black-black-50, #e7e7e7);
   font-family: Inter;
   font-size: 48px;
   font-style: normal;
@@ -1473,7 +1473,8 @@ footer {
   }
 
   .banner-left section h1 {
-    color: var(--White-Bg, #fff);
+    color: var(--Black-black-50, #e7e7e7);
+
     text-align: center;
     font-family: Inter;
     font-size: 48px;
@@ -1586,7 +1587,7 @@ footer {
 
   .section-heading h2 {
     width: 100%;
-    color: var(--White-Bg, #fff);
+    color: var(--Black-black-50, #e7e7e7);
     font-family: Inter;
     font-size: 32px;
     font-style: normal;
@@ -1808,7 +1809,6 @@ footer {
     letter-spacing: -0.96px;
   }
 
-
   .service-info-set {
     display: flex;
     flex-direction: column-reverse;
@@ -1876,15 +1876,15 @@ footer {
     letter-spacing: -0.8px;
   }
 
-  .certifications-container section p{
+  .certifications-container section p {
     color: var(--Black-black-200, #929292);
-text-align: center;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -0.28px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
   }
 
   .our-team-div {

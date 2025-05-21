@@ -48,25 +48,6 @@ function ServiceInfo() {
         </div>
         <div
           className="service-info-set"
-          id="Design&ManufacturingOfForgingDiesMachiningUpTo55-58HRc"
-        >
-          <section>
-            <h3>
-              Design & Manufacturing of Forging dies machining up to 55-58HRc
-            </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Morbi pellentesque quis
-              faucibus urna. Malesuada consectetur senectus nisi aliquet. Lorem
-              ipsum dolor sit amet consectetur. Morbi pellentesque quis faucibus
-              urna. Malesuada consectetur senectus nisi aliquet.
-            </p>
-          </section>
-          <div className="service-info-set-img">
-            <img src={Img} />
-          </div>
-        </div>
-        <div
-          className="service-info-set"
           id="FixturesDesign&Manufacturing"
         >
           <section>

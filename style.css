@@ -441,12 +441,13 @@ header nav a:hover {
 .service-options-container {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
 .service-options-set {
   width: 100%;
+  min-height: 307px;
   display: flex;
   padding: 32px 16px;
   flex-direction: column;
@@ -2047,5 +2048,6 @@ footer {
   .footer-container-down {
     flex-direction: column;
     gap: 8px;
+    align-items: center;
   }
 }

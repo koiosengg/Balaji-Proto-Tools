@@ -220,6 +220,7 @@ header nav a:hover {
 .banner-marquee {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   animation: scrollUp 30s linear infinite;
 }
 

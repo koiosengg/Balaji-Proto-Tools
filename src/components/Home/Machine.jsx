@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../../assets/Machine.png";
+import Img from "../../assets/Machine.jpg";
 
 function Machine() {
   return (

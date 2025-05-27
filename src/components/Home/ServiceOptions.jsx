@@ -82,7 +82,7 @@ function ServiceOptions() {
         </Link>
         <Link
           to="/"
-          state={{ scrollTo: "FixturesDesign&Manufacturing" }}
+          state={{ scrollTo: "GatingDesign&Manufacturing" }}
           className="service-options-set"
         >
           <svg
@@ -111,12 +111,13 @@ function ServiceOptions() {
             </g>
           </svg>
           <h3>
-            Fixtures Design & <span>Manufacturing</span>
+            <span> Gating Design & </span>
+            Manufacturing
           </h3>
         </Link>
         <Link
           to="/"
-          state={{ scrollTo: "Design&ManufacturingOfGravityDieCasting" }}
+          state={{ scrollTo: "PatternsDesign&Manufacturing" }}
           className="service-options-set"
         >
           <svg
@@ -145,12 +146,13 @@ function ServiceOptions() {
             </g>
           </svg>
           <h3>
-            Design & Manufacturing of <span>Gravity Die Casting </span>
+            <span> Patterns Design & </span>
+            Manufacturing
           </h3>
         </Link>
         <Link
           to="/"
-          state={{ scrollTo: "FixturesDesign&Manufacturing" }}
+          state={{ scrollTo: "CoreboxDesign&Manufacturing" }}
           className="service-options-set"
         >
           <svg
@@ -179,7 +181,8 @@ function ServiceOptions() {
             </g>
           </svg>
           <h3>
-            Fixtures Design & <span>Manufacturing</span>
+            <span> Corebox Design & </span>
+            Manufacturing
           </h3>
         </Link>
       </div>

@@ -46,14 +46,40 @@ function ServiceInfo() {
             <img src={Img} />
           </div>
         </div>
+        <div className="service-info-set" id="FixturesDesign&Manufacturing">
+          <section>
+            <h3>Fixtures Design & Manufacturing</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Morbi pellentesque quis
+              faucibus urna. Malesuada consectetur senectus nisi aliquet. Lorem
+              ipsum dolor sit amet consectetur. Morbi pellentesque quis faucibus
+              urna. Malesuada consectetur senectus nisi aliquet.
+            </p>
+          </section>
+          <div className="service-info-set-img">
+            <img src={Img} />
+          </div>
+        </div>
         <div
           className="service-info-set"
-          id="FixturesDesign&Manufacturing"
+          id="Design&ManufacturingOfGravityDieCasting"
         >
           <section>
-            <h3>
-            Fixtures Design & Manufacturing
-            </h3>
+            <h3>Design & Manufacturing of Gravity Die Casting </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Morbi pellentesque quis
+              faucibus urna. Malesuada consectetur senectus nisi aliquet. Lorem
+              ipsum dolor sit amet consectetur. Morbi pellentesque quis faucibus
+              urna. Malesuada consectetur senectus nisi aliquet.
+            </p>
+          </section>
+          <div className="service-info-set-img">
+            <img src={Img} />
+          </div>
+        </div>
+        <div className="service-info-set" id="FixturesDesign&Manufacturing">
+          <section>
+            <h3>Fixtures Design & Manufacturing</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur. Morbi pellentesque quis
               faucibus urna. Malesuada consectetur senectus nisi aliquet. Lorem

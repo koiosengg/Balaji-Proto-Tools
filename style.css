@@ -438,12 +438,23 @@ header nav a:hover {
   line-height: normal;
   letter-spacing: -0.32px;
 }
-
 .service-options-container {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 20px;
+}
+
+.service-options-set {
+  grid-column: span 2;
+}
+
+.service-options-set:nth-child(4) {
+  grid-column: 2 / span 2;
+}
+
+.service-options-set:nth-child(5) {
+  grid-column: 4 / span 2;
 }
 
 .service-options-set {

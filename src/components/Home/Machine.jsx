@@ -7,8 +7,8 @@ function Machine() {
       <div className="section-heading">
         <h2>Cosmos CVM Vertical Machining Center</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Morbi pellentesque quis
-          faucibus urna. Malesuada consectetur senectus nisi aliquet.
+          High-speed, high-precision machining that ensures accuracy,
+          consistency, and efficiency across all your tooling requirements.
         </p>
       </div>
       <div className="machine-container">
@@ -17,7 +17,7 @@ function Machine() {
         </div>
         <div className="machine-numbers">
           <div className="machine-numbers-set">
-            <p>X Axis: 1050mm | Y Axis: 520mm | Z Axis: 520mm</p>
+            <p> <span>X Axis:</span>  1050mm |<span> Y Axis:</span> 520mm |<span> Z Axis:</span> 520mm</p>
             <section>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -6,14 +6,14 @@ function Clientele() {
       <div className="section-heading">
         <h2>Our Clientele</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Morbi pellentesque quis
-          faucibus urna. Malesuada consectetur senectus nisi aliquet.
+          Trusted by top manufacturers, we've delivered precision tooling
+          solutions tailored to their casting, forging, and machining needs.
         </p>
       </div>
       <div className="clientele-container">
         <div className="clientele-set">
           <h3>Anu Tools</h3>
-          <p>Patterns, Core Box, GDC dies</p>
+          <p>GDC dies</p>
         </div>
         <div className="clientele-set">
           <h3>RA Engineering</h3>

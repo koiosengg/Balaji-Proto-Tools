@@ -655,6 +655,17 @@ header nav a:hover {
   letter-spacing: -1.12px;
 }
 
+.machine-numbers-set p span{
+  color: var(--Black-black-100, #B6B6B6);
+text-align: center;
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -1.12px;
+}
+
 .machine-numbers-set section {
   display: flex;
   padding: 4px 8px;
@@ -1774,6 +1785,7 @@ footer {
   }
 
   .service-options-set {
+    min-height: auto;
     display: flex;
     padding: 24px 16px;
     flex-direction: column;
@@ -1882,6 +1894,10 @@ footer {
     font-weight: 700;
     line-height: normal;
     letter-spacing: -0.72px;
+  }
+
+  .machine-numbers-set p span{
+     font-size: 18px;
   }
 
   .engineering-container {

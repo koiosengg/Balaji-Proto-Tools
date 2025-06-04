@@ -7,8 +7,7 @@ function ServiceOptions() {
       <div className="section-heading">
         <h2>What We Do & Do Best</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Morbi pellentesque quis
-          faucibus urna. Malesuada consectetur senectus nisi aliquet.
+      A complete range of tooling services built to improve precision, reduce downtime, and support your production goals.
         </p>
       </div>
       <div className="service-options-container">
@@ -111,7 +110,7 @@ function ServiceOptions() {
             </g>
           </svg>
           <h3>
-            <span> Gating Design & </span>
+            <span> Gating  </span>Design &
             Manufacturing
           </h3>
         </Link>
@@ -146,7 +145,7 @@ function ServiceOptions() {
             </g>
           </svg>
           <h3>
-            <span> Patterns Design & </span>
+            <span> Patterns </span>Design & 
             Manufacturing
           </h3>
         </Link>
@@ -181,7 +180,7 @@ function ServiceOptions() {
             </g>
           </svg>
           <h3>
-            <span> Corebox Design & </span>
+            <span> Corebox </span>Design & 
             Manufacturing
           </h3>
         </Link>

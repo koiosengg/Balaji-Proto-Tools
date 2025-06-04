@@ -21,10 +21,13 @@ function Banner() {
       <div className="banner-shade-down"></div>
       <div className="banner-left">
         <section>
-          <h1>Engineering Excellence in Every Shape</h1>
+          <h1>
+            Engineering Precision.
+            <br /> Powering Production.
+          </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Venenatis maecenas tristique
-            sagittis lectus id ut. Sed nunc felis facilisis urna ac morbi.
+            We craft high-performance foundry tools, GDC Dies, and fixtures that
+            elevate quality, speed, and reliability. Explore our services.
           </p>
         </section>
         <Link to="/" state={{ scrollTo: "Explore" }} className="primary-button">

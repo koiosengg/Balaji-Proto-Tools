@@ -12,8 +12,8 @@ function Footer() {
             <br /> <span>One Message Away </span>
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Pellentesque morbi ac non
-            convallis mi. Ornare tempor elit amet at.
+            Reach out today to discuss your requirements Let’s begin building
+            precise, reliable tooling solutions together.
           </p>
         </section>
         <Link to="/contact" className="secondary-button">

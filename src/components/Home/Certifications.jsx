@@ -19,8 +19,8 @@ function Certifications() {
         <div className="section-heading">
           <h2>Certifications</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Morbi pellentesque quis
-            faucibus urna. Malesuada consectetur senectus nisi aliquet.
+            Achieved to streamline processes, ensure consistent quality, and
+            build trust with manufacturers through certified tooling standards.
           </p>
         </div>
         <div className="certifications-container">

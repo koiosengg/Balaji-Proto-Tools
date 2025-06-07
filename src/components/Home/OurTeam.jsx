@@ -8,8 +8,8 @@ function OurTeam() {
       <div className="section-heading">
         <h2>Our Team</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Morbi pellentesque quis
-          faucibus urna. Malesuada consectetur senectus nisi aliquet.
+          A skilled team of engineers and toolmakers, united by precision,
+          experience, and commitment to your success.
         </p>
       </div>
       <div className="our-team-container">

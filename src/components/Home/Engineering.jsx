@@ -5,10 +5,10 @@ function Engineering() {
   return (
     <div className="section-container">
       <div className="section-heading">
-        <h2>Engineering Excellence Starts Here</h2>
+        <h2>Built for Precision Manufacturing</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Morbi pellentesque quis
-          faucibus urna. Malesuada consectetur senectus nisi aliquet.
+          Equipped with advanced machinery to handle complex tooling,
+          high-accuracy machining, and large-scale production demands.
         </p>
       </div>
       <div className="engineering-container">

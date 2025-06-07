@@ -655,15 +655,15 @@ header nav a:hover {
   letter-spacing: -1.12px;
 }
 
-.machine-numbers-set p span{
-  color: var(--Black-black-100, #B6B6B6);
-text-align: center;
-font-family: Inter;
-font-size: 28px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: -1.12px;
+.machine-numbers-set p span {
+  color: var(--Black-black-100, #b6b6b6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.12px;
 }
 
 .machine-numbers-set section {
@@ -1097,6 +1097,7 @@ letter-spacing: -1.12px;
   align-self: stretch;
   border-radius: 8px;
   border: 1px solid #585858;
+  text-decoration: none;
 }
 
 .contact-info-set svg {
@@ -1896,8 +1897,8 @@ footer {
     letter-spacing: -0.72px;
   }
 
-  .machine-numbers-set p span{
-     font-size: 18px;
+  .machine-numbers-set p span {
+    font-size: 18px;
   }
 
   .engineering-container {

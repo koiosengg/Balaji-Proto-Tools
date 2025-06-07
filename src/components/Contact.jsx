@@ -14,10 +14,10 @@ function Contact() {
       <img src={MobileBackground} className="contact-background mobile" />
       <div className="contact-info">
         <h2>
-          Get Connected <br /> With Us!
+       Is Your Precision Dieing? Contact Us!
         </h2>
         <div className="contact-info-container">
-          <div className="contact-info-set">
+          <a href="https://mail.google.com/mail/?view=cm&to=bpt.nov24@gmail.com" target="_blank" className="contact-info-set">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -35,7 +35,7 @@ function Contact() {
               <h3>Mail Us</h3>
               <p>bpt.nov24@gmail.com</p>
             </section>
-          </div>
+          </a>
           <div className="contact-info-set">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ function Contact() {
             <section>
               <h3>Address</h3>
               <p>
-                bpt.nov24@gmail.comPlot Number J-535/11, MIDC, Bhosari, Pimpri
+               Plot Number J-535/11, MIDC, Bhosari, Pimpri
                 Chinchwad - Maharastra- 411026
               </p>
             </section>

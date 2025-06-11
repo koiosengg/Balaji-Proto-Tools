@@ -8,9 +8,9 @@ import Img3 from "../../assets/Marquee/Img 3.jpg";
 import Img4 from "../../assets/Marquee/Img 4.jpg";
 import Img5 from "../../assets/Marquee/Img 5.jpg";
 import Img6 from "../../assets/Marquee/Img 6.jpg";
-import Img7 from "../../assets/Marquee/Img 4.jpg";
-import Img8 from "../../assets/Marquee/Img 5.jpg";
-import Img9 from "../../assets/Marquee/Img 6.jpg";
+import Img7 from "../../assets/Marquee/Img 7.jpg";
+import Img8 from "../../assets/Marquee/Img 8.jpeg";
+import Img9 from "../../assets/Marquee/Img 9.jpeg";
 
 function Banner() {
   return (

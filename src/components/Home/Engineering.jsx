@@ -4,6 +4,7 @@ import SurfacePlate from "../../assets/Engineering/suraface Plate.avif";
 import WorkNC from "../../assets/Engineering/worknc-cam-mastercam-jpg.jpg";
 import ZAxis from "../../assets/Engineering/z-setter.jpg";
 import Overhead from "../../assets/Engineering/overhead crane.png";
+import Shop from "../../assets/Engineering/shop.jpg";
 
 function Engineering() {
   return (
@@ -36,7 +37,7 @@ function Engineering() {
         </div>
         <div className="engineering-set">
           <div className="engineering-img">
-            <img alt="2000 SQ-FT area Shop" />
+            <img src={Shop} alt="2000 SQ-FT area Shop" />
           </div>
           <p>2000 SQ-FT area Rented Shop</p>
         </div>

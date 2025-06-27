@@ -11,6 +11,16 @@ import Img6 from "../../assets/Marquee/Img 6.jpg";
 import Img7 from "../../assets/Marquee/Img 7.jpg";
 import Img8 from "../../assets/Marquee/Img 8.jpeg";
 import Img9 from "../../assets/Marquee/Img 9.jpeg";
+import Img10 from "../../assets/Marquee/Img 10.jpg";
+import Img11 from "../../assets/Marquee/Img 11.jpg";
+import Img12 from "../../assets/Marquee/Img 12.jpg";
+import Img13 from "../../assets/Marquee/Img 13.jpg";
+import Img14 from "../../assets/Marquee/Img 14.jpg";
+import Img15 from "../../assets/Marquee/Img 15.jpg";
+import Img16 from "../../assets/Marquee/Img 16.jpg";
+import Img17 from "../../assets/Marquee/Img 17.jpg";
+import Img18 from "../../assets/Marquee/Img 18.jpg";
+import Img19 from "../../assets/Marquee/Img 19.jpg";
 
 function Banner() {
   return (
@@ -72,6 +82,16 @@ function Banner() {
               <img src={Img7} />
               <img src={Img8} />
               <img src={Img9} />
+              <img src={Img10} />
+              <img src={Img11} />
+              <img src={Img12} />
+              <img src={Img13} />
+              <img src={Img14} />
+              <img src={Img15} />
+              <img src={Img16} />
+              <img src={Img17} />
+              <img src={Img18} />
+              <img src={Img19} />
               <img src={Img1} />
               <img src={Img2} />
               <img src={Img3} />
@@ -81,15 +101,16 @@ function Banner() {
               <img src={Img7} />
               <img src={Img8} />
               <img src={Img9} />
-              <img src={Img1} />
-              <img src={Img2} />
-              <img src={Img3} />
-              <img src={Img4} />
-              <img src={Img5} />
-              <img src={Img6} />
-              <img src={Img7} />
-              <img src={Img8} />
-              <img src={Img9} />
+              <img src={Img10} />
+              <img src={Img11} />
+              <img src={Img12} />
+              <img src={Img13} />
+              <img src={Img14} />
+              <img src={Img15} />
+              <img src={Img16} />
+              <img src={Img17} />
+              <img src={Img18} />
+              <img src={Img19} />
             </div>
           </div>
         </div>
@@ -105,6 +126,16 @@ function Banner() {
               <img src={Img7} />
               <img src={Img8} />
               <img src={Img9} />
+              <img src={Img10} />
+              <img src={Img11} />
+              <img src={Img12} />
+              <img src={Img13} />
+              <img src={Img14} />
+              <img src={Img15} />
+              <img src={Img16} />
+              <img src={Img17} />
+              <img src={Img18} />
+              <img src={Img19} />
               <img src={Img1} />
               <img src={Img2} />
               <img src={Img3} />
@@ -114,15 +145,16 @@ function Banner() {
               <img src={Img7} />
               <img src={Img8} />
               <img src={Img9} />
-              <img src={Img1} />
-              <img src={Img2} />
-              <img src={Img3} />
-              <img src={Img4} />
-              <img src={Img5} />
-              <img src={Img6} />
-              <img src={Img7} />
-              <img src={Img8} />
-              <img src={Img9} />
+              <img src={Img10} />
+              <img src={Img11} />
+              <img src={Img12} />
+              <img src={Img13} />
+              <img src={Img14} />
+              <img src={Img15} />
+              <img src={Img16} />
+              <img src={Img17} />
+              <img src={Img18} />
+              <img src={Img19} />
             </div>
           </div>
         </div>

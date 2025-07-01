@@ -2,14 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import DesktopBackground from "../../assets/Banner Background Desktop.png";
 import MobileBackground from "../../assets/Banner Background Mobile.png";
-import Img1 from "../../assets/Marquee/Img 1.jpg";
-import Img2 from "../../assets/Marquee/Img 2.jpg";
-import Img3 from "../../assets/Marquee/Img 3.jpg";
-import Img4 from "../../assets/Marquee/Img 4.jpg";
-import Img5 from "../../assets/Marquee/Img 5.jpg";
-import Img6 from "../../assets/Marquee/Img 6.jpg";
-import Img7 from "../../assets/Marquee/Img 7.jpg";
-import Img8 from "../../assets/Marquee/Img 8.jpeg";
 import Img9 from "../../assets/Marquee/Img 9.jpeg";
 import Img10 from "../../assets/Marquee/Img 10.jpg";
 import Img11 from "../../assets/Marquee/Img 11.jpg";
@@ -73,14 +65,6 @@ function Banner() {
         <div className="banner-wrapper">
           <div className="banner-marquee">
             <div className="marquee-group">
-              <img src={Img1} />
-              <img src={Img2} />
-              <img src={Img3} />
-              <img src={Img4} />
-              <img src={Img5} />
-              <img src={Img6} />
-              <img src={Img7} />
-              <img src={Img8} />
               <img src={Img9} />
               <img src={Img10} />
               <img src={Img11} />
@@ -92,14 +76,28 @@ function Banner() {
               <img src={Img17} />
               <img src={Img18} />
               <img src={Img19} />
-              <img src={Img1} />
-              <img src={Img2} />
-              <img src={Img3} />
-              <img src={Img4} />
-              <img src={Img5} />
-              <img src={Img6} />
-              <img src={Img7} />
-              <img src={Img8} />
+              <img src={Img9} />
+              <img src={Img10} />
+              <img src={Img11} />
+              <img src={Img12} />
+              <img src={Img13} />
+              <img src={Img14} />
+              <img src={Img15} />
+              <img src={Img16} />
+              <img src={Img17} />
+              <img src={Img18} />
+              <img src={Img19} />
+              <img src={Img9} />
+              <img src={Img10} />
+              <img src={Img11} />
+              <img src={Img12} />
+              <img src={Img13} />
+              <img src={Img14} />
+              <img src={Img15} />
+              <img src={Img16} />
+              <img src={Img17} />
+              <img src={Img18} />
+              <img src={Img19} />
               <img src={Img9} />
               <img src={Img10} />
               <img src={Img11} />
@@ -117,14 +115,6 @@ function Banner() {
         <div className="banner-wrapper">
           <div className="banner-marquee banner-marquee-rev">
             <div className="marquee-group">
-              <img src={Img1} />
-              <img src={Img2} />
-              <img src={Img3} />
-              <img src={Img4} />
-              <img src={Img5} />
-              <img src={Img6} />
-              <img src={Img7} />
-              <img src={Img8} />
               <img src={Img9} />
               <img src={Img10} />
               <img src={Img11} />
@@ -136,14 +126,28 @@ function Banner() {
               <img src={Img17} />
               <img src={Img18} />
               <img src={Img19} />
-              <img src={Img1} />
-              <img src={Img2} />
-              <img src={Img3} />
-              <img src={Img4} />
-              <img src={Img5} />
-              <img src={Img6} />
-              <img src={Img7} />
-              <img src={Img8} />
+              <img src={Img9} />
+              <img src={Img10} />
+              <img src={Img11} />
+              <img src={Img12} />
+              <img src={Img13} />
+              <img src={Img14} />
+              <img src={Img15} />
+              <img src={Img16} />
+              <img src={Img17} />
+              <img src={Img18} />
+              <img src={Img19} />
+              <img src={Img9} />
+              <img src={Img10} />
+              <img src={Img11} />
+              <img src={Img12} />
+              <img src={Img13} />
+              <img src={Img14} />
+              <img src={Img15} />
+              <img src={Img16} />
+              <img src={Img17} />
+              <img src={Img18} />
+              <img src={Img19} />
               <img src={Img9} />
               <img src={Img10} />
               <img src={Img11} />
